@@ -26,7 +26,11 @@ This research project focused on evaluating the applicability of protocols in *F
 
 **Federated Analytics** is a kind of data science. The aim is to allow analysts to compute statistical functions on population data that is hidden from them. The consequence is that data analysis can be done on user data without comprimising user privacy. 
 
-![Woah!](https://media.giphy.com/media/oYtVHSxngR3lC/giphy.gif)
+<div style="text-align: center;">
+
+![Woah! Gif](https://media.giphy.com/media/oYtVHSxngR3lC/giphy.gif)
+
+</div>
 
 Various protocols have been developed and employed by companies like [Google](https://ai.googleblog.com/2020/05/federated-analytics-collaborative-data.html) and [Microsoft](https://www.microsoft.com/en-us/research/blog/collecting-telemetry-data-privately/).
 
