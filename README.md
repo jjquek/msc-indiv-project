@@ -3,7 +3,7 @@
 **TL;DR** -- inspect this repository if:
 * you want to see some work I did for my Master's project
 * you want to see some Python code I wrote
-* you want to learn about an uP-and-CoMing, blEEdIng-edGe technology: Federated Analytics.
+* you want to learn about an uP-and-CoMing, blEEdIng-edGe technology: **Federated Analytics**.
 
 **Table of Contents**
 - [MSc Computing (Imperial College, London) Individual Project](#msc-computing-imperial-college-london-individual-project)
@@ -16,7 +16,7 @@
 
 ## Overview
 
-This repository contains key files from my **individual research project** done for my MSc Computing degree at Imperial College, London. It includes both `.pdf`s of the Jupyter notebooks I submitted, along with **Python scripts** I wrote for the notebooks. I have also included the `final_report.pdf` which I had submitted.
+This repository contains key files from my **individual research project** done for my degree at Imperial College, London. It includes both `.pdf`s of the Jupyter notebooks I submitted, along with **Python scripts** I wrote. I have also included the `final_report.pdf` which was submitted.
 
 Here, I provide context on what the project was about, and what my main takeaways were.
 
@@ -26,17 +26,13 @@ This research project focused on evaluating the applicability of protocols in *F
 
 **Federated Analytics** is a kind of data science. The aim is to allow analysts to compute statistical functions on population data that is hidden from them. The consequence is that data analysis can be done on user data without comprimising user privacy. 
 
-<div style="text-align: center;">
-
 ![Woah! Gif](https://media.giphy.com/media/oYtVHSxngR3lC/giphy.gif)
-
-</div>
 
 Various protocols have been developed and employed by companies like [Google](https://ai.googleblog.com/2020/05/federated-analytics-collaborative-data.html) and [Microsoft](https://www.microsoft.com/en-us/research/blog/collecting-telemetry-data-privately/).
 
 In my project, I focus on evaluating two kinds of protocols: *differentially private* protocols and *Bayesian Federated Analytic* protocols. 
 
-A decent explanation of these protocols would bloat this `README` beyond readibility, so I direct interested persons to the `final_report` for the goods.  
+A decent explanation of these would bloat the `README` beyond readibility. If you're interested check out the `final_report` for the goods.  
 
 ## Repository Contents :
 
@@ -52,7 +48,7 @@ The contents of this directory is relatively little compared to `safe-experiment
 
 ### `safe-experiments`
 
-`safe` is the acronym for the **S**ecure **A**ggregation of **F**eature **V**ector protocol proposed by [Huth and Chualwar](https://arxiv.org/abs/2107.13640). As it's name suggests, it allows an analyst to securely aggregate feature vectors (submitted by users). 
+`safe` is the acronym for the **S**ecure **A**ggregation of **F**eature **V**ector protocol proposed by [Huth and Chualwar](https://arxiv.org/abs/2107.13640). As its name suggests, it allows an analyst to securely aggregate feature vectors. 
 
 This directory includes several `.pdf` files, which should be read in the following order:
 1. `safe-illustration`-- explains and illustrates the application of the SAFE protocol
