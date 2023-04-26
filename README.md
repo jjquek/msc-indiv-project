@@ -3,7 +3,7 @@
 **TL;DR** -- inspect this repository if:
 * you want to see some work I did for my Master's project
 * you want to see some Python code I wrote
-* you want to learn about an uP-and-CoMing, blEEdIng-edGe technology: **Federated Analytics**.
+* you want to learn about **Federated Analytics**.
 
 **Table of Contents**
 - [MSc Computing (Imperial College, London) Individual Project](#msc-computing-imperial-college-london-individual-project)
